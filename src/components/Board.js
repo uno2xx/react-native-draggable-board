@@ -15,8 +15,8 @@ import {
 const { width, height } = Dimensions.get("window");
 class Board extends React.Component {
 	MAX_RANGE = 100;
-	MAX_DEG = 30;
-	TRESHOLD = 35;
+	MAX_DEG = 15;
+	TRESHOLD = 130;
 
 	constructor(props) {
 		super(props);
